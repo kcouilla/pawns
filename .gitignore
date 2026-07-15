@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# runtime game logs written by DeathTrap_2000.py
+this_game_moves.csv
+files/start_*.csv
