@@ -1,6 +1,9 @@
 __pycache__/
 *.pyc
 
-# runtime game logs written by DeathTrap_2000.py
+# runtime game logs written by DeathTrap_2000.py / the web app
 this_game_moves.csv
 files/start_*.csv
+
+# IIS/wfastcgi runtime log
+webapp/wfastcgi.log

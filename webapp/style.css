@@ -1,0 +1,70 @@
+body {
+  background: #202020;
+  color: #eee;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#app {
+  display: inline-block;
+  margin-top: 24px;
+}
+
+#status {
+  font-size: 1.1em;
+  min-height: 1.5em;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(8, 80px);
+  grid-template-rows: repeat(8, 80px);
+  border: 2px solid #111;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.square.light {
+  background: burlywood;
+}
+
+.square.dark {
+  background: black;
+}
+
+.square.legal {
+  box-shadow: inset 0 0 0 3px firebrick;
+  cursor: pointer;
+}
+
+.piece {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.piece.pawn {
+  background: dodgerblue;
+}
+
+.piece.queen {
+  background: firebrick;
+}
+
+#controls {
+  margin-top: 16px;
+}
+
+#controls button {
+  font-size: 1em;
+  padding: 6px 14px;
+  margin: 0 6px;
+}
